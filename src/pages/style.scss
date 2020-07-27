@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+$cor-padrao: #3db39e;
+$font-padrao: 'Open Sans', sans-serif;
+
+.containerPagina {
+  text-align: center;
+  .containerLogo {
+    align-items: center;
+    .textoLogo {
+      color: $cor-padrao;
+      font-size: 38px;
+      font-weight: 700;
+      font-family: $font-padrao;
+    }
+    .imagemLogo {
+      width: 160px;
+      height: 160px;
+    }
+  }
+  .containerBuscarQuestao {
+    padding: 3% 0;
+    .textoCampoBuscaQuestao {
+      margin: 10px 0;
+      font-size: 18px;
+      font-family: $font-padrao;
+    }
+    .compoBuscaQuestao {
+      width: 350px;
+    }
+    .buttonBuscaQuestao {
+      align-self: center;
+      background-color: $cor-padrao;
+      margin: 6px 20px;
+      height: 40px;
+      font-weight: 400;
+      font-family: $font-padrao;
+    }
+    .MuiInputBase-root {
+      font-family: $font-padrao;
+    }
+  }
+  .containerListagem {
+    .MuiTableCell-root {
+      font-weight: 400;
+      font-family: $font-padrao;
+      height: 50px !important;
+    }
+    .tableCellHeadFirst {
+      color: #fff;
+      background-color: $cor-padrao;
+      font-weight: 700 !important;
+    }
+    .tableCellHead {
+      color: #fff;
+      background-color: $cor-padrao;
+      font-weight: 700 !important;
+      text-align: center;
+    }
+    .imagemTableCell {
+      align-self: center;
+      width: 128px;
+      height: 128px;
+    }
+  }
+}
